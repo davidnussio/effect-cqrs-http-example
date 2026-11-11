@@ -1,0 +1,24 @@
+{
+  "name": "effect-cqrs-http-example",
+  "private": true,
+  "description": "The HTTP example of the effect-cqrs integration guide, as a runnable server",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/main.ts",
+    "dev": "node --watch src/main.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@effect/platform-node": "^4.1.2",
+    "@effect/sql-sqlite-node": "^4.1.2",
+    "effect": "^4.1.2",
+    "effect-cqrs": "file:vendor/effect-cqrs-0.3.0.tgz"
+  }
+}
