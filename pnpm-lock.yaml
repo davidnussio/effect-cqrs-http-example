@@ -18,8 +18,8 @@ importers:
         specifier: ^4.1.2
         version: 4.1.2
       effect-cqrs:
-        specifier: file:vendor/effect-cqrs-0.3.0.tgz
-        version: file:vendor/effect-cqrs-0.3.0.tgz(effect@4.1.2)
+        specifier: ^0.4.0
+        version: 0.4.0(effect@4.1.2)
     devDependencies:
       '@types/node':
         specifier: ^24.19.2
@@ -210,9 +210,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  effect-cqrs@file:vendor/effect-cqrs-0.3.0.tgz:
-    resolution: {integrity: sha512-4owfWjNOdTkoR3VhtpnpWdqn23osjhTx1Ng5+gb6WNEe3zHfGfkXNzrYAmuWIV/JDbcaTKfyNUvnBGSAvc28HA==, tarball: file:vendor/effect-cqrs-0.3.0.tgz}
-    version: 0.3.0
+  effect-cqrs@0.4.0:
+    resolution: {integrity: sha512-aAVXop2wSFUk4prEJVr+netL35cdpm2oijeQCm0yrzUlfJ+DZXTtlp9Q7kou9VchDhf58le0NXnaKrnwJBdT7A==}
     engines: {node: '>=24'}
     peerDependencies:
       effect: ^4.0.6
@@ -359,7 +358,7 @@ snapshots:
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
 
-  effect-cqrs@file:vendor/effect-cqrs-0.3.0.tgz(effect@4.1.2):
+  effect-cqrs@0.4.0(effect@4.1.2):
     dependencies:
       effect: 4.1.2
 

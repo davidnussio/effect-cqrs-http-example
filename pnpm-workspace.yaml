@@ -1,0 +1,4 @@
+# effect-cqrs is published by the same author as this example, so a new release can be
+# used as soon as it is out. Every other package still waits for minimumReleaseAge.
+minimumReleaseAgeExclude:
+  - effect-cqrs

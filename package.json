@@ -19,6 +19,6 @@
     "@effect/platform-node": "^4.1.2",
     "@effect/sql-sqlite-node": "^4.1.2",
     "effect": "^4.1.2",
-    "effect-cqrs": "file:vendor/effect-cqrs-0.3.0.tgz"
+    "effect-cqrs": "^0.4.0"
   }
 }
