@@ -65,7 +65,7 @@ every start.
 
 ## The effect-cqrs version
 
-The example uses effect-cqrs 0.4.0 from npm. `pnpm-workspace.yaml` exempts effect-cqrs from
+The example uses effect-cqrs 0.4.1 from npm. `pnpm-workspace.yaml` exempts effect-cqrs from
 pnpm's `minimumReleaseAge`, so a new release can be installed the day it comes out:
 
 ```bash
